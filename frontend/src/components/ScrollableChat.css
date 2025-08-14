@@ -1,0 +1,33 @@
+.chat-message-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-avatar-tooltip {
+    margin-top: 7px;
+    margin-right: 5px;
+  }
+  
+  .chat-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .chat-bubble {
+    padding: 5px 15px;
+    border-radius: 20px;
+    max-width: 75%;
+    display: inline-block;
+    word-wrap: break-word;
+  }
+  
+  .own-message {
+    background-color: #bee3f8;
+  }
+  
+  .other-message {
+    background-color: #b9f5d0;
+  }
+  

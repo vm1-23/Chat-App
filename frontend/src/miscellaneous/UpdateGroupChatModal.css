@@ -1,0 +1,105 @@
+/* overlay */
+.ugc-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* modal box */
+.ugc-modal {
+  width: 90%;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+.ugc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+  font-family: "Work Sans", sans-serif;
+}
+
+.ugc-close {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* body */
+.ugc-body {
+  padding: 20px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.ugc-input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ugc-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ugc-btn.teal {
+  background: #38b2ac;
+  color: #fff;
+}
+
+.ugc-btn.red {
+  background: #e53e3e;
+  color: #fff;
+}
+
+.spinner {
+  margin-top: 10px;
+}
+
+.user-list {
+  margin-top: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/* footer */
+.ugc-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 20px;
+  border-top: 1px solid #eee;
+}
+
+/* trigger icon btn */
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
